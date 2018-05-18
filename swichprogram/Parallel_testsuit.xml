@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My test suite" parallel="none">
+	<test name="Test case for chrome">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.swichprogram.parallelexe" />
+		</classes>
+	</test>
+	<test name="Test case for browser">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.swichprogram.parallelexe" />
+		</classes>
+	</test>
+</suite>
